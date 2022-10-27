@@ -1,0 +1,4 @@
+repository "My city stands firm@my-city-stands-firm@cloud.cn"
+  path "/"
+    br "/main"
+    co "/main"
