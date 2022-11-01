@@ -1,0 +1,226 @@
+Using pre-set license
+Built from '2021.3/china_unity/release' branch; Version is '2021.3.9f1c1 (0fa35b602de1) revision 1024859'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 15789 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+F:\U3D\UN\2021.3.9f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/data/Project/My city stands firm/My city stands firm
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+61162
+Successfully changed project path to: D:/data/Project/My city stands firm/My city stands firm
+D:/data/Project/My city stands firm/My city stands firm
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+AS: AutoStreaming module initializing.
+Refreshing native plugins compatible for Editor in 68.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.9f1c1 (0fa35b602de1)
+[Subsystems] Discovering subsystems at path F:/U3D/UN/2021.3.9f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/data/Project/My city stands firm/My city stands firm/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
+    Vendor:   NVIDIA
+    VRAM:     5980 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'F:/U3D/UN/2021.3.9f1c1/Editor/Data/Managed'
+Mono path[1] = 'F:/U3D/UN/2021.3.9f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'F:/U3D/UN/2021.3.9f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: F:/U3D/UN/2021.3.9f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: F:/U3D/UN/2021.3.9f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004055 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 55.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.653 seconds
+Domain Reload Profiling:
+	ReloadAssembly (653ms)
+		BeginReloadAssembly (83ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (455ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (108ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (263ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (55ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (56ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (101ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.023314 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 53.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.197 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1197ms)
+		BeginReloadAssembly (228ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (135ms)
+		EndReloadAssembly (842ms)
+			LoadAssemblies (108ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (196ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (430ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (54ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (236ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2950 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (128.6 KB). Loaded Objects now: 3415.
+Memory consumption went from 137.4 MB to 137.3 MB.
+Total: 3.648000 ms (FindLiveObjects: 0.437100 ms CreateObjectMapping: 0.158900 ms MarkObjects: 2.939000 ms  DeleteObjects: 0.111000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 33493.605615 seconds.
+  path: Assets/Tmp/test.mat
+  artifactKey: Guid(76849c645ab56cd4ca523e180bd94c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tmp/test.mat using Guid(76849c645ab56cd4ca523e180bd94c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bd7874e0b34f11549431d4e12749f94') in 0.109238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.763871 seconds.
+  path: Assets/_Scenes/TestScene.unity
+  artifactKey: Guid(b621eed5a6eeb7445b34ec3549314210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/TestScene.unity using Guid(b621eed5a6eeb7445b34ec3549314210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a25de2008b68f39b552d6ae29226017f') in 0.002889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.459265 seconds.
+  path: Assets/_Imported packages/Smart Lighting 2D/FunkyCode/Demos - SmartLighting2D/Demos - Shader Graph/Demo 5 -All In One/All In One.mat
+  artifactKey: Guid(8aada191fabbd30439ccd00a863d51d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Imported packages/Smart Lighting 2D/FunkyCode/Demos - SmartLighting2D/Demos - Shader Graph/Demo 5 -All In One/All In One.mat using Guid(8aada191fabbd30439ccd00a863d51d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '777c34d3dfad9a8cb5a845b205e352a6') in 0.361387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/_Imported packages/Smart Lighting 2D/FunkyCode/Demos - SmartLighting2D/Demos - Materials/5 - Depth Map/Boxl.mat
+  artifactKey: Guid(434a9377cc1d32844ac1c56de5e86575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Imported packages/Smart Lighting 2D/FunkyCode/Demos - SmartLighting2D/Demos - Materials/5 - Depth Map/Boxl.mat using Guid(434a9377cc1d32844ac1c56de5e86575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d025dcb61547e6457608026e366617') in 0.014983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/_Imported packages/Smart Lighting 2D/FunkyCode/SmartUtilities2D/Resources/Materials/GlowMaterial.mat
+  artifactKey: Guid(80a2ce6729c3c274ba3732d38e47ccd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Imported packages/Smart Lighting 2D/FunkyCode/SmartUtilities2D/Resources/Materials/GlowMaterial.mat using Guid(80a2ce6729c3c274ba3732d38e47ccd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3455734ac4ba72f2740fcaa09ac523b1') in 0.015074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_Imported packages/Smart Lighting 2D/FunkyCode/Demos - SmartLighting2D/Demos - Shader Graph/Demo 7 - Depth/Depth.mat
+  artifactKey: Guid(dcb23faeb32973e47845b11f77a82818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Imported packages/Smart Lighting 2D/FunkyCode/Demos - SmartLighting2D/Demos - Shader Graph/Demo 7 - Depth/Depth.mat using Guid(dcb23faeb32973e47845b11f77a82818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef4efe668e3e18a6e2af5a4e25c97fd4') in 0.015294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/_Imported packages/Smart Lighting 2D/FunkyCode/Demos - SmartLighting2D/Demos - Materials/5 - Depth Map/Box 2.mat
+  artifactKey: Guid(69237fd1f1a3f574783b0c403a2a43f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Imported packages/Smart Lighting 2D/FunkyCode/Demos - SmartLighting2D/Demos - Materials/5 - Depth Map/Box 2.mat using Guid(69237fd1f1a3f574783b0c403a2a43f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed9ba29525c7994f7a7554813c7aebf9') in 0.016816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/_Imported packages/Smart Lighting 2D/FunkyCode/Demos - SmartLighting2D/Demos - Materials/5 - Depth Map/House.mat
+  artifactKey: Guid(2ccad2f42e1062e4c970b11a1201512d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Imported packages/Smart Lighting 2D/FunkyCode/Demos - SmartLighting2D/Demos - Materials/5 - Depth Map/House.mat using Guid(2ccad2f42e1062e4c970b11a1201512d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da7b35c0dbfd8563bffe4003385d0c37') in 0.013271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/_Imported packages/Smart Lighting 2D/FunkyCode/Demos - SmartLighting2D/Demos - Materials/4 - Lit Occlusion/Box.mat
+  artifactKey: Guid(9d5afe4e7511f4e4b8585fb9dc132c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Imported packages/Smart Lighting 2D/FunkyCode/Demos - SmartLighting2D/Demos - Materials/4 - Lit Occlusion/Box.mat using Guid(9d5afe4e7511f4e4b8585fb9dc132c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47f8f386b4b8fc3fca9f1ec9e2547b28') in 0.062593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.610205 seconds.
+  path: Assets/_Imported packages/Smart Lighting 2D/FunkyCode/Demos - SmartLighting2D/Demos - Perspective/3D Scene/Lit Material.mat
+  artifactKey: Guid(b5b4869adda4b92439570b0e83b1bf80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Imported packages/Smart Lighting 2D/FunkyCode/Demos - SmartLighting2D/Demos - Perspective/3D Scene/Lit Material.mat using Guid(b5b4869adda4b92439570b0e83b1bf80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc3b49a22dadd29df93d8d7b23233dd') in 0.013599 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
